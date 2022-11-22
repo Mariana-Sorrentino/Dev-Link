@@ -1,0 +1,26 @@
+
+.linkSocial {
+  color: #f8f8f8;
+}
+
+.linkSocial svg {
+  font-size: 45px;
+  color: #f8f8f8;
+  transition: transform 0.4s;  
+}
+
+.linkSocial svg:hover {
+  transform: scale(1.06);
+  color:  #ffd43a;
+}
+
+.linkSocial svg:active {
+  transform: scale(0.98);
+}
+
+@media screen and (max-width: 550px) {
+
+  .linkSocial svg {
+    font-size: 35px;
+  }
+}

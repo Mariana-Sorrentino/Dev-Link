@@ -1,0 +1,47 @@
+
+.containerError{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  color: #f8f8f8;
+}
+
+.titleError {
+  margin-bottom: 20px;
+}
+
+.pError{
+  font-style: italic;
+}
+
+.btnBack {
+  width: 200px;
+  min-width: 200px;
+  height: 50px;
+  padding: 5px 10px;
+  margin-top: 30px;
+  border-radius: 5px;
+  font-size: 17px;
+  background-color: #0549af;
+  color: #ddd;
+  font-weight: bold;
+  cursor: pointer; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all ease-in-out 0.2s;
+}
+
+.btnBack:hover {
+  background-color:  #0461ec;
+  transform: scale(1.05);
+}
+
+.btnBack:active {
+  transform: scale(0.95);
+}

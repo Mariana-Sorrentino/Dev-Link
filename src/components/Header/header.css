@@ -1,0 +1,60 @@
+.boxContainer {
+  position: fixed;
+  width: 100%;
+  max-width: 100%;
+  height: 80px;
+  top: 0;
+  backdrop-filter: blur(30px);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.headerContainer {
+  width: 100%;
+  max-width: 720px;
+  padding: 0 14px;
+}
+
+.navContainer {
+  width: 100%;
+  height: 50px;
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.btnLogOut {
+  border: none;
+  background-color: transparent;
+  margin-right: 30px;
+  margin-left: 20px;
+}
+
+.btnLogOut svg {
+  font-size: 30px;
+  color: #DB2629;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+
+.btnLogOut svg:hover {
+  color:  #ff0004;
+  transform: scale(1.06);
+}
+
+.btnLogOut svg:active {
+  transform: scale(0.98);
+}
+
+
+.navContainer a {
+  margin-right: 15px;
+  color: #21242d;
+  transition: color 0.3s;
+}
+
+.navContainer a:hover {
+  color: #eda617;
+}
